@@ -45,24 +45,25 @@
 
 :root {
     --radius: 0.65rem;
-    --background: oklch(1 0 0);
-    --foreground: oklch(0.145 0 0);
+    /* Brand: Trust Blue #0B4F6C, Background Beige #F5F5F0 */
+    --background: oklch(0.97 0.005 90);
+    --foreground: oklch(0.25 0.03 230);
     --card: oklch(1 0 0);
-    --card-foreground: oklch(0.145 0 0);
+    --card-foreground: oklch(0.25 0.03 230);
     --popover: oklch(1 0 0);
-    --popover-foreground: oklch(0.145 0 0);
-    --primary: oklch(0.205 0 0);
-    --primary-foreground: oklch(0.985 0 0);
-    --secondary: oklch(0.97 0 0);
-    --secondary-foreground: oklch(0.205 0 0);
-    --muted: oklch(0.97 0 0);
-    --muted-foreground: oklch(0.556 0 0);
-    --accent: oklch(0.97 0 0);
-    --accent-foreground: oklch(0.205 0 0);
+    --popover-foreground: oklch(0.25 0.03 230);
+    --primary: oklch(0.38 0.08 230);
+    --primary-foreground: oklch(0.98 0 0);
+    --secondary: oklch(0.95 0.01 90);
+    --secondary-foreground: oklch(0.38 0.08 230);
+    --muted: oklch(0.95 0.005 90);
+    --muted-foreground: oklch(0.5 0.02 230);
+    --accent: oklch(0.92 0.01 90);
+    --accent-foreground: oklch(0.38 0.08 230);
     --destructive: oklch(0.577 0.245 27.325);
-    --border: oklch(0.922 0 0);
-    --input: oklch(0.922 0 0);
-    --ring: oklch(0.708 0 0);
+    --border: oklch(0.90 0.01 90);
+    --input: oklch(0.95 0.005 90);
+    --ring: oklch(0.38 0.08 230);
     --chart-1: oklch(0.646 0.222 41.116);
     --chart-2: oklch(0.6 0.118 184.704);
     --chart-3: oklch(0.398 0.07 227.392);
@@ -118,7 +119,38 @@
         @apply border-border outline-ring/50;
     }
 
+    html {
+        scroll-behavior: smooth;
+    }
+
     body {
         @apply bg-background text-foreground;
+        font-family: 'Inter', system-ui, sans-serif;
+    }
+
+    /* Container for centering sections */
+    .container {
+        @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+    }
+
+    /* Consistent typography - larger for older audience */
+    h1 {
+        @apply text-4xl font-bold leading-tight tracking-tight text-foreground lg:text-5xl;
+    }
+
+    h2 {
+        @apply text-3xl font-semibold leading-tight tracking-tight text-foreground lg:text-4xl;
+    }
+
+    h3 {
+        @apply text-xl font-semibold leading-snug text-foreground lg:text-2xl;
+    }
+
+    h4 {
+        @apply text-lg font-semibold leading-snug text-foreground;
+    }
+
+    p {
+        @apply text-base leading-relaxed text-muted-foreground lg:text-lg;
     }
 }

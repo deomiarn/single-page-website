@@ -9,65 +9,95 @@
 ---
 
 ## INPUTS [EDIT HERE]
+Only use shadcn_search components for UI and don't create custom components unless absolutely necessary.
+Execute as many tasks as possible in parallel and use multiple instances of the same subagent when you delegate the tasks.
+Always delegate tasks to the subagents, never do the work yourself.
+After page structure and components are selected, create the page structure with the chosen components, then stop and show me the page structure and component selection for confirmation before proceeding to the next step.
+For branding, also adjust h1, h2, h3, p etc. in globals.css to ensure consistency across the entire website.
+Use sections with images regularly throughout the site—no galleries, just images integrated into sections on every page.
+All sections must be centered on the page (container mx-auto), but content within sections should NOT be centered by you.
+Before starting, document all business information and requirements in requirements.md.
 
-### Business Information
-- **Company Name**: [Your company name]
-- **Industry**: [Industry/niche]
-- **Value Proposition**: [What makes you unique - 1-2 sentences]
-- **Target Audience**: [B2B/B2C, company size, demographics]
-- **Geographic Focus**: [Countries/regions you serve]
 
-### Pages Required
-List all pages you need (examples):
-- Homepage
-- About Us
-- Services/Products
-- Pricing
-- Blog
-- Contact
-- FAQ
-- [Add more...]
+USE ONLY SHADCN_SEARCH Components
 
-### Languages
-- **Primary Language**: [e.g., en (English)]
-- **Secondary Languages**: [e.g., de (German), fr (French)]
+Business Information
+Company Name: Zürcher Unterland Räumungen (oder "Meier Entsorgung & Räumung")
 
-### SEO Keywords
-- **Primary Keywords** (1-3): [Main keywords you want to rank for]
-- **Secondary Keywords** (5-10): [Supporting keywords]
-- **Competitors**: [Competitor URLs to analyze]
+Industry: House Clearance, Waste Disposal, Decluttering (Räumung, Entsorgung, Entrümpelung)
 
-### Features
+Value Proposition: Discreet, fast, and eco-friendly house clearances in the Dielsdorf region. Fixed price guarantee (Festpreisgarantie) – no hidden costs. We handle everything from furniture disposal to final sweeping.
+
+Target Audience: Families dealing with inheritance (Erbfall), Seniors moving to care homes, Landlords needing quick clearance.
+
+Geographic Focus: Dielsdorf, Bülach, Regensdorf, Steinmaur (Bezirk Dielsdorf).
+
+Pages Required
+STRICTLY SINGLE PAGE ARCHITECTURE (One-Pager) A clean, reassuring layout that builds trust immediately (avoiding the "dark/trashy" look of competitors).
+
+Hero Section: Friendly image of a clean empty room (not a trash pile!). Headline: "Sorgenfreie Wohnungsräumung im Zürcher Unterland." CTA: "Gratis Besichtigungstermin".
+
+Trust Badges: "Besenrein-Garantie", "100% Recycling", "Festpreis".
+
+Services: Cards for: Wohnungsräumung, Entsorgung, Kellerräumung, Firmenauflösung.
+
+Process: 1. Besichtigung (Gratis), 2. Offerte, 3. Räumung & Übergabe.
+
+About: "Local family business in Dielsdorf" (builds trust vs. anonymous national chains).
+
+Testimonials: Focus on "Reliable", "On time", "Friendly".
+
+Contact/Footer: Large Phone Number (Click-to-call is crucial!), Simple form for "Free Quote".
+
+Languages
+Primary Language: de (German - Trustworthy, empathetic tone)
+
+Secondary Languages: en (English - optional, but good for expats leaving CH)
+
+SEO Keywords
+Primary Keywords: Räumung Dielsdorf, Wohnungsauflösung Zürich Unterland, Entsorgung Dielsdorf
+
+Secondary Keywords: Entrümpelung Firma, Hausräumung nach Todesfall, Sperrmüll abholen, Keller räumen lassen
+
+Competitors: [Leave empty]
+
+Features
 Check all that apply:
-- [ ] Contact form
-- [ ] Blog/News section
-- [ ] Pricing calculator
-- [ ] Booking/Demo scheduling
-- [ ] Newsletter signup
-- [ ] E-commerce
-- [ ] Customer testimonials
-- [ ] Case studies
-- [ ] Multi-language support (next-intl)
-- [ ] SEO optimization
-- [ ] Analytics integration
 
-### Brand Guidelines (Optional)
-- **Tone**: [Professional / Friendly / Technical / Playful]
-- **Colors**: [If you have specific brand colors, list hex codes]
-- **Fonts**: [If you have specific fonts]
-- **Logo**: [Path to logo file if available]
+[x] Contact form (Fields: Name, Phone, Object type (House/Apt), Date)
+
+[ ] Blog/News section
+
+[ ] Pricing calculator
+
+[ ] Booking/Demo scheduling
+
+[ ] Newsletter signup
+
+[ ] E-commerce
+
+[x] Customer testimonials
+
+[ ] Case studies
+
+[x] Multi-language support (next-intl)
+
+[x] SEO optimization (Local SEO is #1 priority here)
+
+[ ] Analytics integration
+
+Brand Guidelines (Optional)
+Tone: Empathetic, Efficient, Serious, Clean. (Not "loud" or aggressive).
+
+Colors: Primary: Trust Blue (#0B4F6C) or Eco Green (#4A7C59). Background: Very clean White/Beige. Avoid Black/Red (looks like danger/trash).
+
+Fonts: Very readable Sans-Serif (Inter, DM Sans). Big font sizes for older target audience.
+
+Logo: Text with a simple "Box" or "Recycling" symbol.
 
 ---
 
 ## EXECUTION PROMPT
-
-Execute as many tasks as possible in parallel and use multiple instances of the same agent when possible to reduce time.
-After page structure and components are selected, create the page structure with the chosen components, then stop and show me the page structure and component selection for confirmation before proceeding to the next step.
-For branding, also adjust h1, h2, h3, p etc. in globals.css to ensure consistency across the entire website.
-Use sections with images regularly throughout the site—no galleries, just images integrated into sections on every page.
-All sections must be centered (container mx-auto), but content within sections should NOT be centered—only the section container itself.
-Before starting, document all business information and requirements in requirements.md.
-
 
 Copy this entire prompt to Parent:
 

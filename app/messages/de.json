@@ -1,1 +1,108 @@
-{}
+{
+  "metadata": {
+    "title": "Zürcher Unterland Räumungen | Wohnungsräumung Dielsdorf",
+    "description": "Professionelle Wohnungsräumung im Zürcher Unterland. Festpreisgarantie, besenreine Übergabe, 100% Recycling. Ihr lokales Familienunternehmen aus Dielsdorf."
+  },
+  "nav": {
+    "services": "Leistungen",
+    "process": "Ablauf",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "cta": "Jetzt anfragen"
+  },
+  "hero": {
+    "title": "Sorgenfreie Wohnungsräumung im Zürcher Unterland",
+    "subtitle": "Diskreter, schneller und umweltfreundlicher Service mit Festpreisgarantie. Von der kompletten Haushaltsauflösung bis zur besenreinen Übergabe – wir kümmern uns um alles.",
+    "cta": "Gratis Besichtigungstermin"
+  },
+  "trustBadges": {
+    "guarantee": {
+      "title": "Besenrein-Garantie",
+      "description": "Übergabe in einwandfreiem Zustand garantiert"
+    },
+    "recycling": {
+      "title": "100% Recycling",
+      "description": "Umweltfreundliche Entsorgung aller Materialien"
+    },
+    "price": {
+      "title": "Festpreis",
+      "description": "Keine versteckten Kosten, transparente Preise"
+    }
+  },
+  "services": {
+    "title": "Unsere Leistungen",
+    "subtitle": "Von der Wohnungsräumung bis zur Firmenauflösung – wir bieten alle Dienstleistungen aus einer Hand.",
+    "apartment": {
+      "title": "Wohnungsräumung",
+      "description": "Komplette Haushaltsauflösung von A bis Z."
+    },
+    "disposal": {
+      "title": "Entsorgung",
+      "description": "Fachgerechte und umweltfreundliche Entsorgung."
+    },
+    "basement": {
+      "title": "Kellerräumung",
+      "description": "Keller, Dachböden und Lagerräume räumen."
+    },
+    "business": {
+      "title": "Firmenauflösung",
+      "description": "Professionelle Geschäftsauflösung für Büros."
+    }
+  },
+  "process": {
+    "title": "Unser Ablauf",
+    "badge": "So einfach gehts",
+    "step1": {
+      "title": "Besichtigung (Gratis)",
+      "description": "Wir kommen unverbindlich zu Ihnen vor Ort."
+    },
+    "step2": {
+      "title": "Offerte",
+      "description": "Transparentes Festpreisangebot innerhalb 24h."
+    },
+    "step3": {
+      "title": "Räumung & Übergabe",
+      "description": "Termingerechte Räumung, besenreine Übergabe."
+    }
+  },
+  "about": {
+    "title": "Ihr lokales Familienunternehmen",
+    "description": "Seit über 15 Jahren sind wir im Zürcher Unterland für Sie da. Als Familienunternehmen aus Dielsdorf kennen wir die Region und ihre Menschen.",
+    "cta": "Jetzt anfragen"
+  },
+  "testimonials": {
+    "title": "Das sagen unsere Kunden",
+    "testimonial1": {
+      "quote": "Die Räumung der Wohnung meiner verstorbenen Mutter war für mich sehr belastend. Das Team war unglaublich einfühlsam und professionell.",
+      "author": "M. Keller, Bülach"
+    },
+    "testimonial2": {
+      "quote": "Pünktlich, zuverlässig und absolut fair im Preis. Die Wohnung wurde besenrein übergeben. Kann ich nur empfehlen!",
+      "author": "P. Weber, Regensdorf"
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "description": "Wir sind für Sie da. Vereinbaren Sie jetzt einen kostenlosen Besichtigungstermin!",
+    "details": "Kontaktdaten",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "form": {
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "phone": "Telefon",
+      "objectType": "Objektart",
+      "message": "Nachricht",
+      "submit": "Anfrage senden"
+    }
+  },
+  "footer": {
+    "tagline": "Ihr Partner für professionelle Räumungen im Zürcher Unterland",
+    "services": "Leistungen",
+    "company": "Unternehmen",
+    "regions": "Regionen",
+    "copyright": "Alle Rechte vorbehalten.",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz"
+  }
+}
