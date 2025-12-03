@@ -51,7 +51,7 @@ const Navbar = () => {
 
       {/* Mobile Navigation */}
       {isOpen && (
-        <div className="absolute left-0 right-0 top-full z-50 border-t bg-background md:hidden">
+        <div className="absolute left-0 right-0 top-full z-50 border-t bg-muted/95 shadow-lg md:hidden">
           <nav className="container flex flex-col gap-4 py-4">
             {NAV_ITEMS.map((item) => (
               <a
