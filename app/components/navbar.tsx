@@ -15,7 +15,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 relative">
       <div className="container flex h-16 items-center justify-between">
         {/* Logo */}
         <a href="/" className="flex items-center gap-2">
@@ -51,7 +51,7 @@ const Navbar = () => {
 
       {/* Mobile Navigation */}
       {isOpen && (
-        <div className="border-t md:hidden">
+        <div className="absolute left-0 right-0 top-full z-50 border-t bg-background md:hidden">
           <nav className="container flex flex-col gap-4 py-4">
             {NAV_ITEMS.map((item) => (
               <a
