@@ -39,7 +39,7 @@ const Navbar6 = () => {
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
   return (
-    <section className="bg-background/70 absolute left-1/2 top-5 z-50 w-[min(90%,700px)] -translate-x-1/2 rounded-full border backdrop-blur-md lg:top-12">
+    <section className="bg-background/70 fixed left-1/2 top-5 z-50 w-[min(90%,700px)] -translate-x-1/2 rounded-full border backdrop-blur-md lg:top-12">
       <div className="flex items-center justify-between px-6 py-3">
         <a href="/" className="flex shrink-0 items-center gap-2">
           <img src="https://deifkwefumgah.cloudfront.net/shadcnblocks/block/block-1.svg" alt="logo" className="w-10" />
@@ -129,7 +129,7 @@ const Navbar6 = () => {
       {/*  Mobile Menu Navigation */}
       <div
         className={cn(
-          "bg-background fixed inset-x-0 top-[calc(100%+1rem)] z-50 flex flex-col rounded-2xl border p-6 transition-all duration-300 ease-in-out lg:hidden",
+          "bg-background fixed left-1/2 top-20 z-50 w-[min(90%,700px)] -translate-x-1/2 flex flex-col rounded-2xl border p-6 transition-all duration-300 ease-in-out lg:hidden",
           isMenuOpen
             ? "visible translate-y-0 opacity-100"
             : "invisible -translate-y-4 opacity-0",
