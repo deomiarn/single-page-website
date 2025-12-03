@@ -15,7 +15,19 @@ import {
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
 
-const ITEMS = [
+type DropdownItem = {
+  title: string;
+  description: string;
+  href: string;
+};
+
+type NavItem = {
+  label: string;
+  href: string;
+  dropdownItems?: DropdownItem[];
+};
+
+const ITEMS: NavItem[] = [
   { label: "Leistungen", href: "#leistungen" },
   { label: "Ablauf", href: "#ablauf" },
   { label: "Über uns", href: "#ueber-uns" },
